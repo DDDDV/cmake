@@ -1,0 +1,4 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6) #没有这一行会提示需要指定version警告
+PROJECT(HELLO) #指定PROJECT名称
+AUX_SOURCE_DIRECTORY(. SRC_LIST) #指定代码路径
+ADD_EXECUTABLE(hello ${SRC_LIST}) #指定可执行文件名称，从SRC的代码中生成可执行文件
