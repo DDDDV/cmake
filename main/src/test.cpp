@@ -4,5 +4,5 @@
 using namespace std;
 
 void test(){
-    cout << "print test" << endl;
+    cout << "这是src目录中的test程序" << endl;
 }
